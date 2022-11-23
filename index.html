@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/fdc10f56de.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -15,13 +16,13 @@
     <section class="game-area">
         <div>
             <p>Make your move!</p>
-            <button aria-label="Rock" data-choice="0" class="control">Rock</button>
-            <button aria-label="Paper" data-choice="1" class="control">Paper</button>
-            <button aria-label="Scissors" data-choice="2" class="control">Scissors</button>
-            <button aria-label="Random" id="random">Rondom</button>
+            <button aria-label="Rock" data-choice="0" class="control">Rock <i class="fa-regular fa-hand-back-fist"></i></button>
+            <button aria-label="Paper" data-choice="1" class="control">Paper <i class="fa-regular fa-hand"></i></button>
+            <button aria-label="Scissors" data-choice="2" class="control">Scissors <i class="fa-regular fa-hand-scissors"></i></button>
+            <button aria-label="Random" id="random">Rondom <i class="fa-solid fa-shuffle"></i></button>
         </div>
         <div id="round-number">
-            <span id="rounds">0</span>
+            <p> Round : <span id="rounds">0</span></p>
         </div>
         <div id="messages"></div>
         <div class="player">
@@ -36,7 +37,7 @@
 
     <footer>
         <h3>Rules</h3>
-        <p>Scissors cut Paper | Paper covers Rock | Rock blunts Scissors</p>
+        <p>Scissors <i class="fa-regular fa-hand-scissors"></i> cut Paper <i class="fa-regular fa-hand"></i> | Paper <i class="fa-regular fa-hand"></i> covers Rock <i class="fa-regular fa-hand-back-fist"></i> | Rock <i class="fa-regular fa-hand-back-fist"></i> blunts Scissors <i class="fa-regular fa-hand-scissors"></i></p>
     </footer>
 
     <script src="assets/js/index.js"></script>

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Fredoka+One&family=IBM+Plex+Mono:wght@300&family=Oswald:wght@300&family=Permanent+Marker&display=swap');
+
+
+/* Main view setup */
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    font-weight:'Caveat', sans-serif;
+    margin: 0;
+}
+
+
+/* header */
+
+header {
+    text-align: center;
+    height: 50px;
+    background-color: rgb(52, 153, 207);
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    min-height: 80px;
+    padding-top: 5px;
+    text-align: center;
+    color: rgb(51, 207, 207);
+    background-color: rgb(36, 36, 55);
+}
+
+.game-area {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+
+
+.control {
+    display: inline-block;
+    border-radius: 10px;
+    font-family: 'Permanent marker', sans-serif;
+    font-size: medium;
+    margin: 2px;
+    width: 120px;
+    height: 40px;
+}
+#random {
+    width: 100px;
+    height: 40px;
+}
+
+#messages {
+    height: 20px;
+}
+
+.player {
+    background-color: lightgrey;
+    float: left;
+    width: 45%;
+}
+
+#player-image {
+    width: 150px;
+}
+
+.computer {
+    background-color: rgb(205, 16, 16);
+    float: right;
+    width: 45%;
+}
+
+#computer-image {
+    width: 150px%;
+}
